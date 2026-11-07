@@ -1,6 +1,6 @@
 // Ultrasonic drums: two HC-SR04 sensors play drums over USB MIDI.
 // Move a hand closer to a sensor to go from hi-hat to snare to kick.
-// Needs a board with native USB (Leonardo, Micro), which shows up as a MIDI device.
+// Needs a board with native USB (Pro Micro, Leonardo, Micro), which shows up as a MIDI device.
 
 #include "MIDIUSB.h"
 

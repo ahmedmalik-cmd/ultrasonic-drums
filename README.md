@@ -4,6 +4,10 @@
 
 By **Ahmed Jamal Malik**, 2024.
 
+| [![Playing it in GarageBand: click to watch](media/demo.jpg)](media/demo.mp4?raw=true) | ![The build: two HC-SR04 sensors and a Pro Micro on a breadboard](media/build.jpg) |
+|---|---|
+| **Playing it in GarageBand** (14 s, click to watch) | **The build:** two sensors and a Pro Micro on a breadboard |
+
 | Hand distance | Drum | MIDI note |
 |---|---|---|
 | under 10 cm | Kick | 36 |
@@ -15,7 +19,7 @@ Each sensor works on its own, so left and right hands can play different drums a
 
 ## Build it
 
-You need an Arduino with native USB (a Leonardo or a Micro; an Uno can't act as a USB MIDI device) and two HC-SR04 sensors.
+You need an Arduino with native USB (a Pro Micro like this one, a Leonardo or a Micro; an Uno can't act as a USB MIDI device) and two HC-SR04 sensors.
 
 | HC-SR04 | Left | Right |
 |---|---|---|
